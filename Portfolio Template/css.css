@@ -4,6 +4,10 @@ body {
     color: #222;
 }
 
+.link-color-top{
+    color: #fff;
+}
+
 .navbar-shrink{
     padding-top: 0;
     padding-bottom: 0;
@@ -14,7 +18,7 @@ body {
 
 header.masthead {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     background-color: #343a40;
     background: url('http://dragonhatchling.com/portfolio_content/River%20Glow%20wood%20card.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -152,6 +156,11 @@ section#about {
 .card:hover .my-social-btn.youtube {
     background: #ff3921;
 }
+
+.card:hover .my-social-btn.sketchfab {
+    background: #15ABF0;
+}
+
 /*
 a.btn.btn-circle.my-social-btn.fb:hover {
     background: #205b9f;
@@ -213,7 +222,7 @@ hr.my-border {
 }
 
 h3.title-heading.text-center {
-    color: #fff;
+    color: #000;
     font-size: 40px;
     font-weight: bold;
 }
@@ -237,17 +246,21 @@ p.myp.text-center {
     object-fit: cover;
 }
 
-
-
-
-
-
 .text-block {
     min-height: 228px;
     height: auto;
     background: #fff;
     padding: 15px;
 }
+
+.text-block-title {
+    text-align: center;
+    max-height: 80px;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    padding-bottom: 25px;
+    padding-top: 10px;
+  }
 
 h5.events-heading {
     font-weight: bold;
@@ -664,3 +677,4 @@ p.myp-font {
 	.header-wrap .sub-menu {width: 250px;}
 	.box img {height: 100%;}
 }
+
