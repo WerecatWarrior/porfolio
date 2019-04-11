@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="http://dragonhatchling.com/">
-  <meta name="twitter:title" content="The portfolio of Kylee Monteith">
-  <meta name="twitter:description" content="The portfolio of Kylee Monteith aka Dragon Hatchling Studio">
-  <meta name="twitter:image" content="http://dragonhatchling.com/portfolio_content/hatchling.jpg">
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Portfolio template  for class wip - Bootsnipp.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </style>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
+        });
+    </script>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-
-    <title>Dragon Hatchling Studio</title>
-</head>
-
 <body>
  
    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -41,6 +52,8 @@
             <div id="main">
                 <a href="javascript:void(0)" class="openNav"><span class="fa fa-bars" onclick="openNav()"></span></a>
             </div>
+
+         
            
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -59,9 +72,9 @@
         <div class="container slider-top-text">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3 class="my-heading">Welcome To <br>Dragon<span class="bg-main">Hatchling</span>Studios</h3>
+                    <h3 class="my-heading">Welcome To <br>Dragon<span class="bg-main">Hatchling</span>Studios</span></h3>
                     <p class="myp-slider text-center">The Portfolio of Kylee Monteith a place of wild imagination and adventures.</p>
-                    <p class="myp text-center"> <a href="#3D-creations" class="link-color-top"> 3D / VIDEO CREATIONS </a>   | <a href="#graphic-design" class="link-color-top"> GRAPHIC DESIGNS </a> | <a href="#photography" class="link-color-top"> PHOTOGRAPHY </a> | <a href="#https://github.com/WerecatWarrior/porfolio" class="link-color-top"> AND A LITTLE CODE </a></p>
+                    <p class="myp text-center"> <a href="#3D-creations" class="link-color-top"> 3D / VIDEO CREATIONS </a>   | <a href="#graphic-design" class="link-color-top"> GRAPHIC DESIGNS </a> | <a href="#photography" class="link-color-top"> PHOTOGRAPHY </a> | <a href="#https://github.com/WerecatWarrior/porfolio" class="link-color-top"> AND A LITTLE CODE </a></p>
                       
                 </div>
                 <div class="col-md-12 text-center mt-5">
@@ -410,7 +423,7 @@
                
                 <div class="col-lg-6 text-center text-lg-left my-auto  wow zoomIn">
                     <p class="text-muted small mb-4 mb-lg-0">© Mojoave 2018. All Rights Reserved.</p>
-                   <p class="text-muted small mb-4 mb-lg-0"> Hosted with <span style="color: #e25555;">♥</span> on Github</p>
+                   <p class="text-muted small mb-4 mb-lg-0"> Hosted with <span style="color: #e25555;">&#9829;</span> on Github</p>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right my-auto  wow zoomIn">
                     <ul class="list-inline mb-0">
@@ -501,7 +514,7 @@
         });
     });
 </script>
-    </body>
-
-
+    </body> <script type="text/javascript">
+    </script>
+</body>
 </html>
