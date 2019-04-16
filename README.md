@@ -23,3 +23,6 @@ https://bootsnipp.com/snippets/aMVZE Information Cards
 Images
 
 All images used were taken/created by me.
+
+Original Template belongs to Mojoave and forked from Bootsnipp
+https://bootsnipp.com/snippets/N6Pv4
